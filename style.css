@@ -1,0 +1,30 @@
+/* fonts */
+@font-face {
+    font-family: 'figextrabold';
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'figmedium';
+    src: url(./assets/fonts/static/Figtree-Medium.ttf);
+}
+
+/* text */
+
+h1 {
+    font-family: 'figextrabold';
+}
+
+p {
+    font-family: 'figmedium';
+}
+
+/* utilities */
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
