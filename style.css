@@ -17,12 +17,13 @@ body {
 
 main {
     background-color: white;
-    width: 350px;
-    max-width: 100%;
-    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    padding: 1.25rem;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid black;
+    box-shadow: 8px 8px black;
 }
 
 /* text */
@@ -87,14 +88,10 @@ a:hover {
     width: 10%;
 }
 
-/* utilities */
-
-.attribution {
-    font-size: 11px; text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 /* media queries */
+
+@media (max-width: 768px) {
+    main {
+        max-width: 80%;
+    }
+}
